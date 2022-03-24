@@ -1,49 +1,9 @@
-    /*box-shadow:*/
-
-    /*        0 2.8px 2.2px rgba(0, 0, 0, 0.034),*/
-    /*        0 6.7px 5.3px rgba(0, 0, 0, 0.048),*/
-    /*        0 12.5px 10px rgba(0, 0, 0, 0.06),*/
-    /*        0 22.3px 17.9px rgba(0, 0, 0, 0.072),*/
-    /*        0 41.8px 33.4px rgba(0, 0, 0, 0.086),*/
-    /*        0 100px 80px rgba(0, 0, 0, 0.12);*/
-
-
-
-
-
-
-
-
-
-/*@keyframes ani {*/
-
-/*    !*0%      {background:#333;}*!*/
-/*    !*25%     {background:#333;}*!*/
-/*    75%     {background:#222;}*/
-/*    100%    {background:#222;}*/
-/*}*/
-
-/*.item {*/
-/*    transition: transform .4s;*/
-/*}*/
-
-/*.item:hover {*/
-/*    transform: scale(1.05);*/
-/*    animation: ani 1s, 0.1;*/
-/*    cursor: pointer;*/
-/*}*/
-
-
-
-
-
-    html, body {
+html, body {
         height: 100%;
 
     }
 
  body {
-     /*font-family: Arial ;*/
      display: flex;
      justify-content: center;
      align-items: center;
@@ -52,27 +12,12 @@
 
  }
 
-
- /*.upper {*/
- /*    height: 200px;*/
- /*    background-color: #f4f4f4;*/
- /*    box-shadow:*/
- /*            0 2.8px 2.2px rgba(0, 0, 0, 0.034),*/
- /*            0 6.7px 5.3px rgba(0, 0, 0, 0.048),*/
- /*            0 12.5px 10px rgba(0, 0, 0, 0.06),*/
- /*            0 22.3px 17.9px rgba(0, 0, 0, 0.072),*/
- /*            0 41.8px 33.4px rgba(0, 0, 0, 0.086),*/
- /*            0 100px 80px rgba(0, 0, 0, 0.12);*/
- /*    padding-bottom: 20px;*/
- /*}*/
-
 button {
     width: 100px;
     height: 20px;
 }
 
  .panel {
-     /*background-color: #333;*/
      width: 300px;
      height: 300px;
     display: grid;
@@ -97,8 +42,3 @@ button {
  .cell:nth-child(n+7) {
      border-bottom: none;
  }
-
-
-.cell:highlight {
-
-}
